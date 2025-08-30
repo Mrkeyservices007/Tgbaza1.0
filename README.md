@@ -12,14 +12,30 @@
 - Avtomatik barcha bazadagi foydalanuvchilarni yuklash.
 - Private va Group xabarlarni loglash.
 - Real vaqtda Telegram xabarlarini kuzatish.
+- TCP server orqali xabarlarni boshqa dasturlarga uzatish.
+- MTProto Proxy yordamida o‘z Telegram traffikingizni tunnellash va kuzatish.
+
+---
+
+## Screenshots
+
+### Asosiy GUI
+![PPP](images/ppp.png)
+
+### Chat va foydalanuvchilar
+![PPP1](images/ppp1.png)
+
+### Media va loglar
+![PPP2](images/ppp2.png)
 
 ---
 
 ## Talablar
 
 - Python 3.11 yoki undan yuqori
-- Telethon
-- Pillow (rasmni ko‘rsatish uchun)
+- [Telethon](https://pypi.org/project/telethon/)
+- [Pillow](https://pypi.org/project/Pillow/) (rasmlarni ko‘rsatish uchun)
+- `asyncio` va `ssl` modullari (Python standart kutubxonasida)
 
 ---
 
@@ -30,3 +46,5 @@
 ```bash
 git clone https://github.com/Mrkeyservices007/Tgbaza1.0
 cd Tgbaza1.0
+pip install -r requirements.txt
+bash setup.sh

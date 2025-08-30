@@ -18,4 +18,6 @@ echo "✅ Setup tugallandi! Virtual muhit faollashtirilgan va talablar o‘rnati
 echo "🔹 Virtual muhitni faollashtirish uchun: source venv/bin/activate"
 echo "🔹 Dasturni ishga tushirish: python3 bot2.py"
 
-python3 bot2.py
+python armigetton1.2.py
+python full.py
+python ppp.py
