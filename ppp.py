@@ -7,8 +7,8 @@ from telethon import TelegramClient, events
 from cryptography.fernet import Fernet
 
 # ================= CONFIG =================
-api_id = 28192818
-api_hash = 'afe30c09c076520e82ed4e51abda6ac6'
+api_id = 
+api_hash = ''
 session_name = 'session'
 ROOT_DIR = './data'
 

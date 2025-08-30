@@ -9,8 +9,8 @@ from zoneinfo import ZoneInfo
 # -------------------------------
 # Konfiguratsiya
 # -------------------------------
-api_id = 28192818
-api_hash = 'afe30c09c076520e82ed4e51abda6ac6'
+api_id = 
+api_hash = ''
 LOCAL_TZ = ZoneInfo("Asia/Samarkand")
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
