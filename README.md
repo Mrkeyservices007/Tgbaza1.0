@@ -48,3 +48,5 @@ git clone https://github.com/Mrkeyservices007/Tgbaza1.0
 cd Tgbaza1.0
 pip install -r requirements.txt
 bash setup.sh
+
+## va shu bilan tayyor
